@@ -116,7 +116,6 @@ app.get('/find:id', function(req,res){
       if(err){
           res.send('Error');
       }else{
-          console.log(data);
           res.json(data);
       }
   })
